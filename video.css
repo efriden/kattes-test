@@ -1,0 +1,69 @@
+body {
+	background-color: #101010;
+}
+
+video {
+	position: fixed;
+	left: 50%;
+	transform: translateX(-50%);
+	height: 100%;
+}
+
+/*
+** Om videon ska
+** fylla ut hela skärmen,
+** vilket inte känns vettigt
+** i det här fallet
+*/
+
+/*
+video {
+	position: fixed;
+	right: 0;
+	bottom: 0;
+	min-width: 100%;
+	min-height: 100%;
+}
+*/
+
+footer {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	background: rgba(0, 0, 0, 0.6);
+	color: #f1f1f1;
+	width: 100%;
+	padding: 1em;
+}
+
+p {
+	color: #f1f1f1;
+	margin-right: 3em;
+	line-height: 1.2em;
+	font-size: 1.2em;
+	letter-spacing: 0.03em;
+}
+
+h1 {
+	font: bold 2em Courier;
+	color: #f1f1f1;
+	margin: 0;
+}
+
+button {
+	background: #303030;
+	border: 0.1em solid #ccc;
+	border-radius: 0.2em;
+	color: #f0f0f0;
+	width: 6em;
+	font: bold small-caps 1.8em Courier;
+	letter-spacing: 0.1em;
+	margin-top: 0.5em;
+	padding: 0.2em;
+	cursor: pointer;
+}
+
+button:hover {
+	background: #ccc;
+	color: #020202;
+}
